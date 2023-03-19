@@ -5,12 +5,10 @@ import Home from '../components/Home'
 //导入页面组件
 import AppIndex from '@/components/home/AppIndex'
 import Login from '@/components/Login'
-
 import AddBook from '@/components/home/addBook'
-
 import Test from '@/components/home/test'
-
 import api_test from '@/components/home/api_test'
+import testpage from '@/components/home/testpage'
 
 Vue.use(VueRouter)
 
@@ -55,6 +53,11 @@ const routes = [
     path:'/api_test',
     name:'api_test',
     component: api_test
+  },
+  {
+    path:'/testpage',
+    name:'testpage',
+    component:testpage
   }
 ]
 
